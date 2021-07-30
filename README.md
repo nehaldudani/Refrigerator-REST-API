@@ -1,6 +1,6 @@
 # Refrigerator-REST-API
 
-This is a simple Refrigerator REST API. It has three endpoints:
+This is a simple Refrigerator REST API using Flask. It has three endpoints:
 
 1. To manipulate a single item by ID: "/refrigerator/itemById/<int:item_id>"
 2. To manipulate a single item by Name: "/refrigerator/itemByName/<string:item_name>"
