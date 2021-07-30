@@ -37,7 +37,7 @@ This is a simple Refrigerator REST API. It has three endpoints:
     b) DELETE is used to completely empty out the refrigerator.
 
 
-                                                        To RUN and TEST this APP:
+  To RUN and TEST this APP:
 
 A sample Client is provided with variety of combination of all endpoints and methods. 
 
@@ -55,7 +55,7 @@ pip3 install requests
     b) in the second terminal, start the RestRefrigeratorClient.py python file. This is a sample client that connects and uses the endpoints provided above.
 
 
-                                                        FUTURE POSSIBLE MODIFICATIONS: 
+  FUTURE POSSIBLE MODIFICATIONS: 
 
 1) It is possible to split up the server file. With separate files for the DB model and each endpoint. This is a good practice as the size of a project increases.
 2) Add POST and PUT methods in allItems endpoint with a possibility to create and upadte several items together. 
